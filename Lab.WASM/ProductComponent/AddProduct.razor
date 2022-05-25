@@ -1,0 +1,60 @@
+﻿@page "/Product/Add"
+@inject IService<Product> productService
+@inject IService<Category> categoryService
+@inject NavigationManager navManager
+
+<h3>Add Product</h3>
+
+    <EditForm Model="product" OnValidSubmit="Save">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
+        <div>
+            <label>Name</label>
+            <InputText @bind-Value="product.Name" class="form-control"></InputText>
+            <ValidationMessage For="()=>product.Name" class="text-danger"></ValidationMessage>
+        </div>
+        <div>
+            <label>Price</label>
+            <InputNumber @bind-Value="product.Price" class="form-control"></InputNumber>
+            <ValidationMessage For="()=>product.Price" class="text-danger"></ValidationMessage>
+
+        </div>
+        <div>
+            <label>Image</label>
+            <InputText @bind-Value="product.Image" class="form-control"></InputText>
+            <ValidationMessage For="()=>product.Image" class="text-danger"></ValidationMessage>
+        </div>
+        <div>
+            <label>Category</label>
+            <InputSelect @bind-Value="product.Cat_ID" class="form-control">
+                @foreach (var item in catList)
+                {
+                <option value="@item.Id">@item.Name</option>
+                }
+        </InputSelect>
+            <ValidationMessage For="()=>product.Cat_ID" class="text-danger"></ValidationMessage>
+
+        </div>
+        <input type="submit" value="Update" class="btn btn-success">
+    </EditForm>
+    }
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public Product product { get; set; }
+    public List<Category> catList { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = new Product();
+        catList = await categoryService.GetAll();
+        await base.OnInitializedAsync();
+    }
+
+    public async void Save()
+    {
+        await productService.Insert(product);
+        navManager.NavigateTo("/Product");
+    }
+}

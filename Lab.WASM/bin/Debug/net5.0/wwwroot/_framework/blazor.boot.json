@@ -198,14 +198,14 @@
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
       "Lab.Shared.dll": "sha256-efhQ7Aes6UiknS3axyLdcJnYFYqueocZJhM0y9LYbfo=",
-      "Lab.WASM.dll": "sha256-vV+NV2q0LarP7NIaHmmnN9nv4N1RHyWN3YJmoOcS9Ow="
+      "Lab.WASM.dll": "sha256-QpI\/a4MnSkiFwSDFDW4YcZwShpix1UqroYtukxpur7U="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Lab.Shared.pdb": "sha256-GX7sKnPAXGD7REjkEGakIwZXgGB1KwbR+ImSZYOdEc4=",
-      "Lab.WASM.pdb": "sha256-nMRFitw6eJ0ySSRLxkyATWZXNg81FqVhyI6a1GIPeiQ="
+      "Lab.WASM.pdb": "sha256-LNCkR1fO3te30L\/eGgWsNp3ogGbRv41mBMzBdn9hLJI="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

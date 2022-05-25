@@ -642,3 +642,5 @@ E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj
 E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj\Debug\net5.0\ref\Lab.WASM.dll
 E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj\Debug\net5.0\service-worker-assets.js
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj\Debug\net5.0\RazorDeclaration\ProductComponent\AddProduct.razor.g.cs
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.WASM\obj\Debug\net5.0\Razor\ProductComponent\AddProduct.razor.g.cs

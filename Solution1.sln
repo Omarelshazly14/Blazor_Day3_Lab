@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab.Shared", "Lab.Shared\La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab.WebApi", "Lab.WebApi\Lab.WebApi.csproj", "{734A31F8-B48C-4600-A72F-9C6A2A5E97AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.WASM", "Lab.WASM\Lab.WASM.csproj", "{625F08D5-A0F4-48FC-A075-93277DB3DCF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab.WASM", "Lab.WASM\Lab.WASM.csproj", "{625F08D5-A0F4-48FC-A075-93277DB3DCF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
