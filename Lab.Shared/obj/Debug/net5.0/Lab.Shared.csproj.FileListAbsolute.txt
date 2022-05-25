@@ -1,0 +1,12 @@
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\bin\Debug\net5.0\Lab.Shared.deps.json
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\bin\Debug\net5.0\Lab.Shared.dll
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\bin\Debug\net5.0\Lab.Shared.pdb
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.csproj.AssemblyReference.cache
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.AssemblyInfoInputs.cache
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.AssemblyInfo.cs
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.csproj.CoreCompileInputs.cache
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.dll
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\refint\Lab.Shared.dll
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\Lab.Shared.pdb
+E:\Employment\ITI\9-month Scholarship\36- Blazor\Day3\Lab\Solution1\Lab.Shared\obj\Debug\net5.0\ref\Lab.Shared.dll

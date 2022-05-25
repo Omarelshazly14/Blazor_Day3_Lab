@@ -1,0 +1,26 @@
+﻿@page "/Product"
+@inject IService<Product> productService
+<h3>All Products</h3>
+
+@if(products != null)
+{
+    <table>
+        @foreach(var pro in products)
+        {
+            <tr>
+                <td>@pro.Name</td>
+                <td>@pro.Price</td>
+                <td>@pro.Image</td>
+                <td><a href="/Product/Edit/@pro.Id" class="btn btn-primary">Edit</a></td>
+            </tr>
+        }
+    </table>
+}
+@code {
+    public List<Product> products { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        products = await productService.GetAll();
+        await base.OnInitializedAsync();
+    }
+}
